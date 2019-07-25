@@ -1,0 +1,46 @@
+body {
+    font-size: 1.2em;
+}
+
+h1, h2, h3 {
+    color: #008033;
+}
+
+#nav-header {
+    border-top: 0 !important;
+}
+
+ol {
+    max-width: 60%;
+    counter-reset: my-awesome-counter;
+    list-style: none;
+    padding-left: 4em;
+}
+
+ol li {
+    margin: 0 0 1em 1em;
+    counter-increment: my-awesome-counter;
+    position: relative;
+    font-size: 1.1em;
+}
+
+ol li::before {
+    content: counter(my-awesome-counter);
+    color: #008033;
+    font-size: 1em;
+    font-weight: bold;
+    position: absolute;
+    --size: 40px;
+    --width: 4px;
+    left: calc(-1.5 * var(--size));
+    line-height: calc(var(--size) - var(--width) * 2);
+    width: var(--size);
+    height: var(--size);
+    top: 0.5em;
+    border-radius: 50%;
+    text-align: center;
+    border-radius: 50%;
+    border-width: var(--width);
+    border-style: solid;
+    font-weight: 800;
+}
