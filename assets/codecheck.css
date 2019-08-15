@@ -1,5 +1,4 @@
 body {
-    font-size: 1.2em;
 }
 
 h1, h2, h3 {
@@ -11,17 +10,15 @@ h1, h2, h3 {
 }
 
 ol {
-    max-width: 60%;
     counter-reset: my-awesome-counter;
     list-style: none;
-    padding-left: 4em;
+    padding-left: 40px;
 }
 
 ol li {
     margin: 0 0 1em 1em;
     counter-increment: my-awesome-counter;
     position: relative;
-    font-size: 1.1em;
 }
 
 ol li::before {
@@ -43,4 +40,24 @@ ol li::before {
     border-width: var(--width);
     border-style: solid;
     font-weight: 800;
+}
+
+@media screen and (min-width: 400px) {
+    body   {
+      font-size: 0.9em;
+    }
+  
+    ol {
+        max-width: 80%;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    body   {
+      font-size: 1.1em;
+    }
+  
+    ol {
+        max-width: 50%;
+    }
 }
