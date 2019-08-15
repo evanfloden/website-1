@@ -6,3 +6,15 @@ If you want to override a file from the `minima-reboot` template, run `bundle sh
 
 - Jekyll GitHub pages: https://jekyllrb.com/docs/github-pages/
 - `minima-reboot` theme: https://github.com/aterenin/minima-reboot
+
+## Prerequisites
+
+- `ruby` and `ruby-dev`
+- gem `bundler`
+
+## Preview and build
+
+```
+make preview
+make build
+```
