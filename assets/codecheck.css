@@ -19,6 +19,7 @@ ol li {
     margin: 0 0 1em 1em;
     counter-increment: my-awesome-counter;
     position: relative;
+    min-height: 3em;
 }
 
 ol li::before {
@@ -33,7 +34,7 @@ ol li::before {
     line-height: calc(var(--size) - var(--width) * 2);
     width: var(--size);
     height: var(--size);
-    top: 0.5em;
+    top: 4px;
     border-radius: 50%;
     text-align: center;
     border-radius: 50%;
