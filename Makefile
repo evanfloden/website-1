@@ -2,4 +2,5 @@ preview:
 	bundle exec jekyll serve
 
 build:
-	bundle exec jekyll clean build
+	bundle exec jekyll clean
+	bundle exec jekyll build --trace

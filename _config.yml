@@ -36,5 +36,8 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - README.md
+  - travis.sh
+  - .travis.yml
+  - Makefile
 
 error_mode: strict
