@@ -32,3 +32,9 @@ Daniel will contribute his technical expertise in reproducible research infrastr
 - Professor Konrad Kording (UPenn)
 - Dr Scott Edmunds, Executive Editor at Gigascience
 - [Opening Reproducible Research](https://o2r.info)
+
+## Funding
+
+The project is supported by a Mozilla Open Science Mini-Grant (see [official announcement](https://medium.com/read-write-participate/meet-mozillas-latest-open-science-awardees-cfa45348e5d5)) from February 2019 to May 2020.
+
+[![](img/mozilla.png)](https://foundation.mozilla.org)

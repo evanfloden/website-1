@@ -33,7 +33,7 @@ ol li::before {
     left: calc(-1.5 * var(--size));
     line-height: calc(var(--size) - var(--width) * 2);
     width: var(--size);
-    height: var(--size);
+    height: var(--size);style
     top: 4px;
     border-radius: 50%;
     text-align: center;
@@ -41,6 +41,17 @@ ol li::before {
     border-width: var(--width);
     border-style: solid;
     font-weight: 800;
+}
+
+.principle {
+    color: #008033;
+    text-transform: uppercase;
+    font-size: 120%;
+}
+
+.principle:after {
+    content: '\A';
+    white-space: pre;
 }
 
 @media screen and (min-width: 400px) {

@@ -4,21 +4,42 @@ layout: page
 
 <img src="img/codecheck_logo.svg" alt="CODE CHECK logo" />
 
-**A process for independent reproduction of computations underlying biomedical research**
+_A process for independent reproduction of computations underlying biomedical research_
 
 CODE CHECK tackles one of the main challenges of computational biomedical research by supporting codecheckers with a workflow, guidelines and tools to evaluate computer programs underlying scientific papers.
 The independent time-stamped runs conducted by codecheckers will award a _"certificate of reproducible computation"_ and increase availability, discovery and reproducibility of crucial artefacts for computational sciences.
-See the [project](/project/) page for a full description of problems, solutions, and goals.
+See the [project](/project/) page for a full description of problems, solutions, and goals and check out the [GitHub organisation](https://github.com/codecheckers) for code and examples.
 
-### The CODE CHECK principle: Codecheckers are human. They are supported by automation and reproducibility infrastructure.
+### The CODE CHECK principles
 
-_How does a check work?_
+1. <span class="principle">Codecheckers are humans and communication is key.</span>
+   The priority in all documentation and metadata is that a human codechecker can understand them.
+   Human interaction, even if complicated by blind-ness in a review process, is key to a positive and educating CODE CHECK experience.
+   Therefore all CODE CHECKs must provide a two-way means of communication between author and codechecker.
+   Codecheckers are supported by formal metadata, automation, and reproducibility infrastructure, yet the check shall not rely on them.
+   Codechecks may be conducted by existing stakeholders in the submission process (e.g., a reviewer), but may also be handled with new roles and by people underrepresented in classic peer-review, such as early career resarchers (ECRs) or resarch software engineers (RSEs).
+1. <span class="principle">Codecheckers record but don't investigate or fix.</span>
+   A codechecker is _not_ required to fix workflows, but to document the given state of documentation and executability.
+   Of course, given a level of interested and skills, a codechecker may go beyond simple small fixes and actively collaborate with an authow to create a better research output.
+   _Codechecker take the pictures at a crime scene, they do not hunt the murderer._
+1. <span class="principle">Credit is given to codecheckes.</span>
+   Software and its review are crucial for research in the age of digitisation, so the contribution to the scientific body of knowledge in form of a check gets the credit it deserves, ideally in form of a DOI-able artifact, but at a minimum reporting codechecker (e.g., with ORCID), time, journal/publisher, and (if published) the article DOI.
+1. <span class="principle">Workflows are scripted, auditable, and they work.</span>
+   Common sense and a collaborative process are the main drivers behind the level of documentation, the degree of openness, and the amount of data that is checked, but the minimal requirement is that the codechecker validates the workflow could be executed once by running a single command.
 
-1. A manuscript with computations passes peer-review and is assigned a codechecker.
-1. The codechecker must understand the instructions and executes the workflow using the CODE CHECK infrastructure.
-   They contact the manuscript author if needed and collaborate based on the CODE CHECK infrastructure.
-1. A CODE CHECK evaluates if the code and data produce a core output (figure, dataset) - it is _not_ a result check or judgement of scientific merit.
-1. The codechecker makes the final call on the result within a week, publishes the checked code and data together with the environment in a public repository (with DOI), and puts their name on it. A <img src="img/codecheck-badge.svg" alt="CODE CHECK badge" height="16" style="margin-top: -4px;" /> badge on the published article points to the repository with the check files.
+These basic principles ensure the feasibility of the process in scholarly communication and strike a balance with the ideals of reusable high-quality research software.
+Of course, numerous requirements on openness/transparency (e.g. depositing the check result publicly with a DOI), about software quality (tests, releases, documentation), and regarding best practices (e.g. workflow management, data/software citation) are thinkable, but intentionally remain to be defined by implementations of the principles in each community of practice.
+While the CODE CHECK initiators strongly support of Open Science, a CODE CHECK does not exclude research not following under your definition of Openness.
+
+<img src="https://docs.google.com/drawings/d/e/2PACX-1vQ02PwUmSs2mCpGh1b9rqI9b6yk8uIVX2RyCj3ac9W2U7quzQHFVJpQtrOxg1eqLrLMD6174PjDfCEq/pub?w=767&amp;h=410">
+
+### The CODE CHECK process
+
+The above principles can be implemented in different ways.
+In our discussions with editors and publishers, we found that the point in time when a code check happens, and the person who takes the role of codechecker can vary.
+For example, the check may happen before peer review or after, and the codechecker can be staff, a regular reviewer, or a member of a special reproducibility committee.
+
+_See the [processes page](process) for details about the connection of a code check with a scholarly peer review, and the [technology example](techexample) page for a concrete specification of the practical requirements and steps._
 
 ------
 
