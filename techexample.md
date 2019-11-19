@@ -82,12 +82,20 @@ TBD
 
 ## FAQ
 
+### Are the CODE CHECK principles not a quite low bar?
+
+Yes.
+
+- A little bit is more than nothing.
+- Exposure to reproducibility practices is key.
+- Nudging works.
+- Better get a certificate for small parts of the workflow than not doing any code checks.
+
 ### Why `make` ?
 
 <!-- make on Windows? -->
-
-- it's old, works, and is available
-- caching
+- It's old, works, and is available everywhere.
+- Use the caching mechanism.
 
 ### How should I best package my code and data?
 

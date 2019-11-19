@@ -20,9 +20,11 @@ For example, the check may happen before peer review or after, the codechecker c
 1. A CODE CHECK evaluates if the code and data produce a core output (figure, dataset) - it is _not_ a result check or judgement of scientific merit.
 1. The codechecker makes the final call on the result within a week, publishes the checked code and data together with the environment in a public repository (with DOI), and puts their name on it. A <img src="/img/codeworks-badge.svg" alt="CODE CHECK badge" height="16" style="margin-top: -4px;" /> badge on the published article points to the repository with the checked files.
 
-### Pre-review by staff
+### Pre-review
 
-1. An editorial staff member/ECR with technical expertise checks if something is "mechanically wrong" before sending out a submission to review. This is worth the time together with other technical checks! The codechecker can reach out to the author to fix problems.
+1. An editorial staff member/ECR with technical expertise checks if something is "mechanically wrong" before sending out a submission to review.
+   This is worth the time together with other technical checks! The codechecker can reach out to the author to fix problems.
+   It is also a sanity check for the author and a measure of seriousness for the journal.
 1. If a code check is successful, start the regular review.
 1. After acceptance, add <img src="/img/codeworks-badge.svg" alt="CODE CHECK badge" height="16" style="margin-top: -4px;" /> badge to the published article.
 
