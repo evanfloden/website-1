@@ -6,6 +6,10 @@ h1, h2, h3 {
     color: #008033;
 }
 
+footer {
+  font-size: 90%;
+}
+
 #nav-header {
     border-top: 0 !important;
 }
@@ -57,7 +61,7 @@ ol li::before {
 
 @media screen and (min-width: 400px) {
     body   {
-      font-size: 1em;
+      font-size: 1.2em;
     }
   
     ol {
@@ -67,10 +71,26 @@ ol li::before {
 
 @media screen and (min-width: 1200px) {
     body   {
-      font-size: 1.2em;
+      font-size: 1.4em;
     }
   
     ol {
         max-width: 50%;
     }
+}
+
+/* based on https://milanaryal.com/adding-hover-anchor-links-to-header-on-github-pages-using-jekyll/ */
+.anchorjs-link {
+  color: inherit !important;
+  text-decoration: none !important; /* do not underline */
+}
+@media (max-width: 768px) {
+  /* Do not display AnchorJS icon on less than 768px view point */
+  .anchorjs-link {
+    display: none;
+  }
+}
+*:hover > .anchorjs-link:hover, .anchorjs-link:focus {
+  text-decoration: none !important; /* do not underline */
+  opacity: 1;
 }
