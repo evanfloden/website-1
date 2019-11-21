@@ -6,6 +6,10 @@ h1, h2, h3 {
     color: #008033;
 }
 
+footer {
+  font-size: 90%;
+}
+
 #nav-header {
     border-top: 0 !important;
 }
@@ -57,7 +61,7 @@ ol li::before {
 
 @media screen and (min-width: 400px) {
     body   {
-      font-size: 1em;
+      font-size: 1.2em;
     }
   
     ol {
@@ -67,7 +71,7 @@ ol li::before {
 
 @media screen and (min-width: 1200px) {
     body   {
-      font-size: 1.2em;
+      font-size: 1.4em;
     }
   
     ol {
