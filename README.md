@@ -1,5 +1,16 @@
 # codecheckers.github.io
 
+## Logo and badge
+
+Find the source files for the CODE CHECK logo and badge in the following directories in this repository.
+
+- `logo`
+- `badge`
+
+All graphics unless noted otherwise are published under a [Creative Commons Attribution 4.0 International license](https://creativecommons.org/licenses/by/4.0/) (CC BY 4.0).
+
+## Website
+
 See `Makefile` for commands to build and view the site locally.
 
 If you want to override a file from the `minima-reboot` template, run `bundle show minima-reboot` to see where the bundle files are and copy it into this project.

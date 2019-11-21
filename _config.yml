@@ -43,5 +43,7 @@ exclude:
   - travis.sh
   - .travis.yml
   - Makefile
+  - logo
+  - badge
 
 error_mode: strict
