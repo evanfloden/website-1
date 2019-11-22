@@ -13,21 +13,32 @@ See the [project](/project/) page for a full description of problems, solutions,
 ### The CODE CHECK principles
 
 1. <span class="principle">Codecheckers are humans and communication is key.</span>
+   <details>
+   <summary>More about this principle...</summary>
    The priority in all documentation and metadata is that a human codechecker can understand them.
    The codechecker is _not_ making a scientific judgement.
    It is also close to impossible to make a codecheck blind.
    Therefore a CODE CHECK must not be anonymised must provide a two-way means of communication between author and codechecker.
    Codecheckers are supported by formal metadata, automation, and reproducibility infrastructure, yet the check shall not rely on them.
    Codechecks may be conducted by existing stakeholders in the submission process (e.g., a reviewer), but may also be handled with new roles and by people underrepresented in classic peer-review, such as early career resarchers (ECRs) or resarch software engineers (RSEs).
+   </details>
 1. <span class="principle">Codecheckers record but don't investigate or fix.</span>
+   <details>
+   <summary>More about this principle...</summary>
    A codechecker is _not_ required to fix workflows, but to document the given state of documentation and executability.
    Of course, given a level of interested and skills, a codechecker may go beyond simple small fixes and actively collaborate with an authow to create a better research output.
    _Codechecker take the pictures at a crime scene, they do not hunt the murderer._
+   </details>
 1. <span class="principle">Credit is given to codecheckers.</span>
-   Software and its review are crucial for research in the age of digitisation, so the contribution to the scientific body of knowledge in form of a check gets the credit it deserves, ideally in form of a DOI-able artifact, but at a minimum reporting codechecker (e.g., with ORCID), time, journal/publisher, and (if published) the article DOI.
+   <details>
+   <summary>More about this principle...</summary>
+   </details>
 1. <span class="principle">Workflows are scripted, auditable, and they work.</span>
-   Common sense and a collaborative process are the main drivers behind the level of documentation, the degree of openness, and the amount of data that is checked, but the minimal requirement is that the codechecker validates the workflow could be executed once by running a single command.
+   <details>
+   <summary>More about this principle...</summary>
+   Common sense and a collaborative process are the main drivers behind the level of documentation, the degree of openness, and the amount of data that is checked, but the minimal requirement is that the codechecker validates the workflow submitted by the authors.
    Being executed once means that a detailed investigation may occur at a later time.
+   </details>
 
 These basic principles ensure the feasibility of the process in scholarly communication and strike a balance with the ideals of reusable high-quality research software.
 Of course, numerous requirements on openness/transparency (e.g. depositing the check result publicly with a DOI), about software quality (tests, releases, documentation), and regarding best practices (e.g. workflow management, data/software citation) are thinkable, but intentionally remain to be defined by implementations of the principles in each community of practice.
