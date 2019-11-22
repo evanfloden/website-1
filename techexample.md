@@ -1,8 +1,11 @@
 ---
 layout: page
-title: CODE CHECK technical example
+title: CODE CHECK default process
 permalink: /techexample/
 ---
+
+This page documents the _default_ concrete implementation of a [CODE CHECK process](/process) developed by the [CODE CHECK core team](/team).
+See the _[CODE CHECK process](/process)_ page for alternative approaches and the _[principles](/)_ for the foundations of a CODE CHECK.
 
 ## Author responsibilities
 
@@ -15,22 +18,30 @@ Any researcher, even if not familiar with the software stack, should be able to 
 Common sense shall be applied to decide about the suitable amount of data and to handle big datasets and privacy concerns.
 For example, data may be deposited depending on community practices in remote repositories, synthetic data may be used, subsets or preprocessed data may be included, or protected access to information may be provided (e.g. cloud-based data enclaves).
 
-The minimal set of files, besides data and code, to implement a CODE CHECK process are the following:
+The minimal set of files, besides all required data and code, to implement a CODE CHECK process are the following (`/` is the project root directory):
 
-1. **`README` file** with instructions how to execute the workflow
-1. **`MANIFEST` file** with a list of output files created by the workflow - these must be created by the workflow and are the basis for validating a successful check
-1. **`LICENSE` file** with information about licenses for all submitted material, e.g. code license for scripts and data licenses for used datasets
+1. **`/README` file** with instructions how to execute the workflow (must be plain text, may have suitable extension, e.g., `.txt`, `.md`, `.markdown`)
+1. **`/MANIFEST` file** with a list of output files created by the workflow - these must be created by the workflow and are the basis for validating a successful check
+1. **`/LICENSE` file** with information about licenses for all submitted material, e.g. code license for scripts and data licenses for used datasets
 
-These files and the worklow are published in a dedicated self-contained _GitHub_ repository.
+These files and the worklow are published in a dedicated self-contained _GitHub_ repository in the [codecheckers organisation](https://github.com/codecheckers/).
+After the check, authors may use a pull request to transfer the improvements and certificate back to their own repository.
 
 Beyond that, any additional configuration and information is extremely helpful, of course.
 Concrete guidelines as to what this can entail are given by the codechecker's tasks below and the concept of a [research compendium](https://research-compendium.science/).
 
 ## Codechecker tasks
 
-Prerequisite: familiarity with `make`, https://the-turing-way.netlify.com/make/make.html
+The codechecker in general is not there to fix things, but to document how far they go and give feedback to the author until a check could be completed or is found impossible (see _[principle 2](/)_).
+However, a codechecker may, for example out of personal interest in the research at hand, invest additional efforts.
+In any case, the overall goal is to _leave the workflow repository in the same or better condition_.
 
-- Create a directory `codecheck` to not interfere with original files (may use `.codecheck` if `codecheck` exists in submission)
+Prerequisite: familiarity with `make`, https://the-turing-way.netlify.com/make/make.html & https://swcarpentry.github.io/make-novice/reference.
+
+- Fork the repository to the codecheckers org
+- Create a directory `codecheck` to not interfere with original files (may use `.codecheck` if `codecheck` exists in submission).
+  All files that are by no chance created by an author go into this directory.
+  Other files that an author could have used must not be hidden in this check-related directory, but just be added to the appropriate location (see "leave in a better condition" above).
 - Re-run the workflow based on provided documentation, i.e. recreate all files listed in `MANIFEST`, based on a `Makefile`
   - template found at XXXX
   - Create a notebook?
@@ -42,16 +53,16 @@ Prerequisite: familiarity with `make`, https://the-turing-way.netlify.com/make/m
   - `DESCRIPTION` file (R package)
 - Add a _report_
   - WHO checked WHAT, and HOW?
-  - Are used pieces of software and data properly CITED and publicly DEPOSITED und suitable LICENSES?
-  - Are open formats (text-based) included?
-  - Is data and [software](https://content.iospress.com/articles/data-science/ds190026) FAIR?
-  - template found at XXXX
+  - template for report at XXXX
+  - Optional report content depending on interest, time, and skills:
+    - Do the generated outputs match the ones in the original manuscript? Are the differences relevant or not?
+    - Are used pieces of software and data properly CITED and publicly DEPOSITED und suitable LICENSES?
+    - Are open formats (text-based) included?
+    - Is data and [software](https://content.iospress.com/articles/data-science/ds190026) FAIR?
 - Deposit the original material along with the reproduced files on _Zenodo_ under you name, adding the original authors as co-authors
 
 Every code check is unique, just as the associated research article.
 The codechecker can thereby rely on the following examples and future published code checks for good practices and approaches.
-
-## Overview
 
 ## Examples
 
@@ -67,18 +78,33 @@ Comments:
 - codechecker added `requirements.txt` using `pip freeze` after workflow could be executed
 - codechecker added text to README about the computing environment
 
+### Eglen, 2015
+
+https://github.com/codecheckers/eglen2015/
+
+Draft check report: https://github.com/sje30/codecheck/blob/master/cert/eglen2016/eglen2016-crc.Rmd
+
 ### Hancock, 1991
 
-TBD
+https://github.com/codecheckers/Reproduction-Hancock
 
-### 
+### Hathway Goodman, 2018
 
-TBD
+https://github.com/codecheckers/Hathway-Goodman-2018
 
-### 
+### Detorakis, 2017
 
-TBD
+https://github.com/codecheckers/Detorakis-reproduction
 
+### Larisch, 2019
+
+https://github.com/codecheckers/Larisch-reproduction
+
+### Barto Sutten Anderson, 1983
+
+https://github.com/codecheckers/Barto-Sutton-Anderson-1983
+
+------
 
 ## FAQ
 
@@ -87,9 +113,10 @@ TBD
 Yes.
 
 - A little bit is more than nothing.
+- The lower the bar, the earlier in the process a CODE CHECK can occure (e.g. pre-review)
 - Exposure to reproducibility practices is key.
 - Nudging works.
-- Better get a certificate for small parts of the workflow than not doing any code checks.
+- Better get a certificate for small parts of the workflow than not doing any code checks - not everything needs to be checked.
 
 ### Why `make` ?
 
