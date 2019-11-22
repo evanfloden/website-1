@@ -4,9 +4,9 @@ layout: page
 
 <img src="img/codecheck_logo.svg" alt="CODE CHECK logo" />
 
-_A process for independent reproduction of computations underlying biomedical research_
+_A process for independent reproduction of computations underlying research_
 
-CODE CHECK tackles one of the main challenges of computational biomedical research by supporting codecheckers with a workflow, guidelines and tools to evaluate computer programs underlying scientific papers.
+CODE CHECK tackles one of the main challenges of computational research by supporting codecheckers with a workflow, guidelines and tools to evaluate computer programs underlying scientific papers.
 The independent time-stamped runs conducted by codecheckers will award a _"certificate of reproducible computation"_ and increase availability, discovery and reproducibility of crucial artefacts for computational sciences.
 See the [project](/project/) page for a full description of problems, solutions, and goals and check out the [GitHub organisation](https://github.com/codecheckers) for code and examples.
 
