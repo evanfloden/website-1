@@ -1,9 +1,9 @@
 body {
-    font-family: "PT Sans", Helvetica, Arial, sans-serif;
+  font-family: "PT Sans", Helvetica, Arial, sans-serif;
 }
 
 h1, h2, h3 {
-    color: #008033;
+  color: #008033;
 }
 
 footer {
@@ -11,72 +11,76 @@ footer {
 }
 
 #nav-header {
-    border-top: 0 !important;
+  border-top: 0 !important;
 }
 
 ol {
-    counter-reset: my-awesome-counter;
-    list-style: none;
-    padding-left: 40px;
+  counter-reset: my-awesome-counter;
+  list-style: none;
+  padding-left: 40px;
 }
 
 ol li {
-    margin: 0 0 1em 1em;
-    counter-increment: my-awesome-counter;
-    position: relative;
-    min-height: 3em;
+  margin: 0 0 1em 1em;
+  counter-increment: my-awesome-counter;
+  position: relative;
+  min-height: 3em;
 }
 
 ol li::before {
-    content: counter(my-awesome-counter);
-    color: #008033;
-    font-size: 1em;
-    font-weight: bold;
-    position: absolute;
-    --size: 40px;
-    --width: 4px;
-    left: calc(-1.5 * var(--size));
-    line-height: calc(var(--size) - var(--width) * 2);
-    width: var(--size);
-    height: var(--size);style
-    top: 4px;
-    border-radius: 50%;
-    text-align: center;
-    border-radius: 50%;
-    border-width: var(--width);
-    border-style: solid;
-    font-weight: 800;
+  content: counter(my-awesome-counter);
+  color: #008033;
+  font-size: 1em;
+  font-weight: bold;
+  position: absolute;
+  --size: 40px;
+  --width: 4px;
+  left: calc(-1.5 * var(--size));
+  line-height: calc(var(--size) - var(--width) * 2);
+  width: var(--size);
+  height: var(--size);
+  top: 4px;
+  border-radius: 50%;
+  text-align: center;
+  border-radius: 50%;
+  border-width: var(--width);
+  border-style: solid;
+  font-weight: 800;
 }
 
 .principle {
-    color: #008033;
-    text-transform: uppercase;
-    font-weight: bolder;
+  color: #008033;
+  text-transform: uppercase;
+  font-weight: bolder;
 }
 
 .principle:after {
-    content: '\A';
-    white-space: pre;
+  content: '\A';
+  white-space: pre;
+}
+
+summary {
+  color: #6c757d;
 }
 
 @media screen and (min-width: 400px) {
-    body   {
-      font-size: 1.2em;
-    }
-  
-    ol {
-        max-width: 80%;
-    }
+  body   {
+    font-size: 1.2em;
+  }
+
+  ol {
+    max-width: 80%;
+  }
 }
 
 @media screen and (min-width: 1200px) {
-    body   {
-      font-size: 1.4em;
-    }
-  
-    ol {
-        max-width: 50%;
-    }
+  body   {
+    font-size: 1.4em;
+  }
+
+  ol {
+    max-width: 50%;
+  }
 }
 
 /* based on https://milanaryal.com/adding-hover-anchor-links-to-header-on-github-pages-using-jekyll/ */
