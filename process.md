@@ -1,11 +1,12 @@
 ---
 layout: page
-title: Process
+title: CODE CHECK Processes
 permalink: /process/
 ---
 
-The [CODE CHECK principles](index) can be implemented in different ways.
-On this page [we](team) describe a few alternatives developed during conversations with our [we](team#partners).
+The [CODE CHECK principles](/) can be implemented in different ways.
+On this page [we](/team) describe a few _abstract alternatives_ developed during conversations with our [partners](/team#partners) to elaborate on the options and opportunities the principles provide.
+You can take a look at the [default process](/techexample) for a _concrete implementation_ of a CODE CHECK principles.
 
 In our discussions with editors and publishers, we found that the _point in time_ during the review process when a code check happens, the person who takes the role of codechecker, and the openness of the codechek, can vary.
 For example, the check may happen before peer review or after, the codechecker can be staff, a regular reviewer, or a member of a special reproducibility committee, the check may be open or blind, either matching or differing from the scientific review, and the results may be published or confidential.
@@ -20,7 +21,7 @@ For example, the check may happen before peer review or after, the codechecker c
 1. A CODE CHECK evaluates if the code and data produce a core output (figure, dataset) - it is _not_ a result check or judgement of scientific merit.
 1. The codechecker makes the final call on the result within a week, publishes the checked code and data together with the environment in a public repository (with DOI), and puts their name on it. A <img src="/img/codeworks-badge.svg" alt="CODE CHECK badge" height="16" style="margin-top: -4px;" /> badge on the published article points to the repository with the checked files.
 
-### Pre-review
+### Pre-review with extra role on staff
 
 1. An editorial staff member/ECR with technical expertise checks if something is "mechanically wrong" before sending out a submission to review.
    This is worth the time together with other technical checks! The codechecker can reach out to the author to fix problems.
@@ -30,4 +31,19 @@ For example, the check may happen before peer review or after, the codechecker c
 
 ### Parallel reproducibility reviewer
 
-1. ...
+1. A manuscript is submitted to a journal or conference.
+1. It is assigned a scientific reviewer with the suitable domain expertise, and a codechecker with matching technical expertise.
+   The scientific review is conducted open/single-blind/double-blind, while the codechecker knows the author and can reach out directly through the best channel, e.g. email, GitHub/GitLab issues, or discussion forums.
+1. Both reviewer and codechecker follow the same deadline.
+1. Both the scientific review and the CODE CHECK result are submitted to the handling editor or programme committee member, who makes the decision on how to proceed.
+1. Independent of the submissions acceptance, the CODE CHECK findings are sent to the submitting author.
+
+### Regular reviewer
+
+The review process is conducted as usual, but the editor does not only match the domain expertise but also technical skills.
+The reviewer conducts the CODE CHECK and submits the resulting certificate as part of his report.
+This variant requires an open peer review and a broad pool of reviewers.
+
+### More?
+
+You have ideas about how a CODE CHECK would work for your journal or conference? _Let us know_ (see contact options below) _!_
