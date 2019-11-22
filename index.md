@@ -27,22 +27,36 @@ See the [project](/project/) page for a full description of problems, solutions,
    <summary>More about this principle...</summary>
    A codechecker is _not_ required to fix workflows, but to document the given state of documentation and executability.
    Of course, given a level of interested and skills, a codechecker may go beyond simple small fixes and actively collaborate with an authow to create a better research output.
+   The codechecker's report provides helpful input to the scientific review, e.g., to help the reviewer's understanding.
+   But a CODE CHECK does not evaluate scientific merit!
+   A failed check does not imply the rejection of a submission.
    _Codechecker take the pictures at a crime scene, they do not hunt the murderer._
    </details>
 1. <span class="principle">Credit is given to codecheckers.</span>
    <details>
    <summary>More about this principle...</summary>
+   Software and its review are crucial for research in the age of digitisation, so the contribution to the scientific body of knowledge in form of a check gets the credit it deserves.
+   If a CODE CHECK was conducted as part of a review process, (a) the publisher ensures a proper creditation to the level given to scientific reviewers, e.g. by listen the codechecker on an article or journal page (with number of reviews) or by depositing metadata to public databases (e.g., CrossRef, Publons), and (b) a sentence in the methods section is added mentioning the occured CODE CHECK and the reviewer name.
+   The deposited metadata includes a codechecker's ORCID, time, journal, and (if published) the article DOI.
+   
+   This principle intentionally does not regulate if/how the output of the CODE CHECK is deposited and who does it.
+   Ideally though the contribution made by the codechecker is openly published in form of a DOI-able artifact and the sentence in the methods sections links to it as a simple hyperlink/URL.
    </details>
 1. <span class="principle">Workflows are scripted, auditable, and they work.</span>
    <details>
    <summary>More about this principle...</summary>
    Common sense and a collaborative process are the main drivers behind the level of documentation, the degree of openness, and the amount of data that is checked, but the minimal requirement is that the codechecker validates the workflow submitted by the authors.
+   This means the code could be executed once by running a single command.
    Being executed once means that a detailed investigation may occur at a later time.
+   Being auditable includes that authors provide data and code for relevant analsis steps and visualisations to the codecheckers, but does not imply that all of the code associated with an article must be checked.   
    </details>
 
-These basic principles ensure the feasibility of the process in scholarly communication and strike a balance with the ideals of reusable high-quality research software.
-Of course, numerous requirements on openness/transparency (e.g. depositing the check result publicly with a DOI), about software quality (tests, releases, documentation), and regarding best practices (e.g. workflow management, data/software citation) are thinkable, but intentionally remain to be defined by implementations of the principles in each community of practice.
-While the CODE CHECK initiators strongly support of Open Science, a CODE CHECK does not exclude research not following under your definition of Openness.
+These basic principles ensure are feasible to add in a scholarly communication process but still have a huge positive impact on the transparency and usefulness of the published material.
+They strike a **balance** between the ideals of auditable high-quality research software and the reality of publication pressure and only slowly changing academic evaluation practices.
+Of course, numerous requirements on openness/transparency (e.g. depositing the check result publicly with a DOI), about software quality (tests, releases, documentation), on copyright/licensing, and regarding best practices for computer-based analyses (e.g. workflow management, data/software citation) are thinkable, but intentionally remain to be defined by implementations of the principles in each community of practice.
+While the CODE CHECK initiators strongly support of Open Science, a CODE CHECK does not exclude research not falling into your definition of Open Science.
+
+**In the future** we hope to update these principles and to work together with researchers, educators, editors, and publishers to raise the bar towards very high reproducibility and openness across all domains and communities of research.
 
 ### Implementing the CODE CHECK process
 
