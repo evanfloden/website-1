@@ -48,6 +48,11 @@ ol li::before {
   font-weight: 800;
 }
 
+ol li details {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
 .principle {
   color: #008033;
   text-transform: uppercase;
@@ -79,7 +84,7 @@ summary {
   }
 
   ol {
-    max-width: 50%;
+    max-width: 60%;
   }
 }
 
