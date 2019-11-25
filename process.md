@@ -15,13 +15,13 @@ For example, the check may happen before peer review or after, the codechecker c
 
 ## Post review with extra role
 
-1. A manuscript with computations passes scientific peer-review and is assigned a codechecker with matching expertise (first priority: code, second priority: domain)
+1. A manuscript with computations passes scientific peer-review and is assigned a codechecker with matching expertise (first priority: code, second priority: domain).
 1. The codechecker must understand the instructions and executes the workflow using the CODE CHECK infrastructure.
    They contact the manuscript author if needed and collaborate based on the CODE CHECK infrastructure.
 1. A CODE CHECK evaluates if the code and data produce a core output (figure, dataset) - it is _not_ a result check or judgement of scientific merit.
 1. The codechecker makes the final call on the result within a week, publishes the checked code and data together with the environment in a public repository (with DOI), and puts their name on it. A <img src="/img/codeworks-badge.svg" alt="CODE CHECK badge" height="16" style="margin-top: -4px;" /> badge on the published article points to the repository with the checked files.
 
-### Pre-review with extra role on staff
+## Pre-review with extra role on staff
 
 1. An editorial staff member/ECR with technical expertise checks if something is "mechanically wrong" before sending out a submission to review.
    This is worth the time together with other technical checks! The codechecker can reach out to the author to fix problems.
@@ -29,7 +29,7 @@ For example, the check may happen before peer review or after, the codechecker c
 1. If a code check is successful, start the regular review.
 1. After acceptance, add <img src="/img/codeworks-badge.svg" alt="CODE CHECK badge" height="16" style="margin-top: -4px;" /> badge to the published article.
 
-### Parallel reproducibility reviewer
+## Parallel reproducibility reviewer
 
 1. A manuscript is submitted to a journal or conference.
 1. It is assigned a scientific reviewer with the suitable domain expertise, and a codechecker with matching technical expertise.
@@ -38,12 +38,18 @@ For example, the check may happen before peer review or after, the codechecker c
 1. Both the scientific review and the CODE CHECK result are submitted to the handling editor or programme committee member, who makes the decision on how to proceed.
 1. Independent of the submissions acceptance, the CODE CHECK findings are sent to the submitting author.
 
-### Regular reviewer
+## Regular reviewer
 
 The review process is conducted as usual, but the editor does not only match the domain expertise but also technical skills.
 The reviewer conducts the CODE CHECK and submits the resulting certificate as part of his report.
 This variant requires an open peer review and a broad pool of reviewers.
 
-### More?
+## Independent community pre-review
+
+An author may also reach out to a colleague or find a [Code Copilot](https://twitter.com/Code_Copilot) on Twitter, who can give feedback but also create a CODE CHECK report according the a journal's/conference's implementation of the principles.
+This report certainly increases trust in a workflow and may help authors to include code and data in their submission.
+Such an independent report may even be taken up during review and take the place of a report usually created by a different process described on this page.
+
+## More?
 
 You have ideas about how a CODE CHECK would work for your journal or conference? _Let us know_ (see contact options below) _!_
