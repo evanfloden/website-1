@@ -30,7 +30,7 @@ See the [project](/project/) page for a full description of problems, solutions,
    The codechecker's report provides helpful input to the scientific review, e.g., to help the reviewer's understanding.
    But a CODE CHECK does not evaluate scientific merit!
    A failed check does not imply the rejection of a submission.
-   _Codechecker take the pictures at a crime scene, they do not hunt the murderer._
+   <em>Codechecker take the pictures at a crime scene, they do not hunt the murderer.</em>
    </details>
 1. <span class="principle">Credit is given to codecheckers.</span>
    <details>
