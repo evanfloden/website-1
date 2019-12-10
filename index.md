@@ -70,6 +70,11 @@ For example, the check may happen before peer review or after, and the codecheck
 
 _See the [processes page](process) for details about the connection of a code check with a scholarly peer review, and the [technology example](techexample) page for a concrete specification of the practical requirements and steps._
 
+Stephen Eglen presented CODE CHECK at [The 14th Munin Conference on Scholarly Publishing 2019](http://site.uit.no/muninconf/).
+You can take a look at the [poster](https://septentrio.uit.no/index.php/SCS/article/view/4910/4893) and the [slides](https://septentrio.uit.no/index.php/SCS/article/view/4910/4900), or watch the [video recording](https://mediasite.uit.no/Mediasite/Play/8027873496dc465ebc4b9b3ab0338ad01d?playFrom=1772000).
+
+[![](/img/munin-2019.jpg){}](https://mediasite.uit.no/Mediasite/Play/8027873496dc465ebc4b9b3ab0338ad01d?playFrom=1772000)
+
 ------
 
 To stay in touch with the project follow the [project team](team) members on Twitter:
