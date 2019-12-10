@@ -81,3 +81,7 @@ To stay in touch with the project follow the [project team](team) members on Twi
 
 - [@StephenEglen](https://twitter.com/StephenEglen)
 - [@nordholmen](https://twitter.com/nordholmen)
+
+To cite CODE CHECK in scientific publications please use the following citation/reference:
+
+> _Eglen, S., & Nüst, D. (2019). CODECHECK: An open-science initiative to facilitate sharing of computer programs and results presented in scientific publications. Septentrio Conference Series, (1). [https://doi.org/10.7557/5.4910](https://doi.org/10.7557/5.4910)_
