@@ -9,6 +9,10 @@ Find the source files for the CODE CHECK logo and badge in the following directo
 
 All graphics unless noted otherwise are published under a [Creative Commons Attribution 4.0 International license](https://creativecommons.org/licenses/by/4.0/) (CC BY 4.0).
 
+## Figures
+
+- https://drive.google.com/drive/folders/1XUsfF9ZlZ_dwLTJxu_PIcq-3hEldI3d-?usp=sharing
+
 ## Website
 
 See `Makefile` for commands to build and view the site locally.
