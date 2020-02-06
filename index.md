@@ -42,13 +42,16 @@ See the [project](/project/) page for a full description of problems, solutions,
    This principle intentionally does not regulate if/how the output of the CODE CHECK is deposited and who does it.
    Ideally though the contribution made by the codechecker is openly published in form of a DOI-able artifact and the sentence in the methods sections links to it as a simple hyperlink/URL.
    </details>
-1. <span class="principle">Workflows are scripted, auditable, and they work.</span>
+1. <span class="principle">Workflows must be auditable and should be scripted.</span>
    <details>
    <summary>More about this principle...</summary>
-   Common sense and a collaborative process are the main drivers behind the level of documentation, the degree of openness, and the amount of data that is checked, but the minimal requirement is that the codechecker validates the workflow submitted by the authors.
-   This means the code could be executed once by running a single command.
+   Common sense and a collaborative process are the main drivers behind the <em>level of documentation</em>, the degree of openness, and the amount of data that is checked, but the minimal requirement is that the codechecker validates the workflow submitted by the authors.
+   This means the <em>code could be executed once by following the provided instructions and all promised outputs, e.g. figures or data files, are created</em>.
+   Ideally the execution is triggered by a running a single command.
    Being executed once means that a detailed investigation may occur at a later time.
-   Being auditable includes that authors provide data and code for relevant analsis steps and visualisations to the codecheckers, but does not imply that all of the code associated with an article must be checked.   
+   Being auditable includes that authors provide data and code for relevant analsis steps and visualisations to the codecheckers, but does not imply that all of the code associated with an article must be checked.
+
+   The check is <em>not automated</em> on purpose: automation may just lead to people gaming the system, and may hide details that eventually decrease level of certainty that a codechecker has in their assessment.
    </details>
 
 These basic principles ensure are feasible to add in a scholarly communication process but still have a huge positive impact on the transparency and usefulness of the published material.

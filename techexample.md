@@ -144,7 +144,7 @@ Yes.
 - synthetic data
 - subsets
 
-### Why does a research have to provide licensing information?
+### Why does a researcher have to provide licensing information?
 
 In this first implementation of the CODE CHECK principles described here, we imagine an Open process, and there is no Openness without proper handling of copyright.
 

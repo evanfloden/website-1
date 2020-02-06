@@ -20,6 +20,7 @@ For example, the check may happen before peer review or after, the codechecker c
    They contact the manuscript author if needed and collaborate based on the CODE CHECK infrastructure.
 1. A CODE CHECK evaluates if the code and data produce a core output (figure, dataset) - it is _not_ a result check or judgement of scientific merit.
 1. The codechecker makes the final call on the result within a week, publishes the checked code and data together with the environment in a public repository (with DOI), and puts their name on it. A <img src="/img/codeworks-badge.svg" alt="CODE CHECK badge" height="16" style="margin-top: -4px;" /> badge on the published article points to the repository with the checked files.
+   The quick turnaround time is important so that accepted papers get out as soon as possible.
 
 ## Pre-review with extra role on staff
 
