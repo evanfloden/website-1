@@ -1,8 +1,14 @@
-# codecheckers.github.io
+# [codecheck.org.uk](https://codecheck.org.uk)
+
+CODE CHECK is a process for independent reproduction of computations and awarding of time-stamped certificates for successful reproductions of scholarly articles.
 
 ## Logo and badge
 
-Find the source files for the CODE CHECK logo and badge in the following directories in this repository.
+![](https://raw.githubusercontent.com/codecheckers/website/master/badges/codeworks-badge.png)
+
+![](https://codecheck.org.uk/img/codecheck_logo.svg)
+
+Find the source files for the CODE CHECK logo and badge in the following directories in this repository:
 
 - `logo`
 - `badge`
@@ -11,11 +17,11 @@ All graphics unless noted otherwise are published under a [Creative Commons Attr
 
 ## Figures
 
-- https://drive.google.com/drive/folders/1XUsfF9ZlZ_dwLTJxu_PIcq-3hEldI3d-?usp=sharing
+The figures used on the website are at https://drive.google.com/drive/folders/1XUsfF9ZlZ_dwLTJxu_PIcq-3hEldI3d-?usp=sharing
 
 ## Website
 
-See `Makefile` for commands to build and view the site locally.
+See `Makefile` for commands to build and view the site locally witj [Jekyll](https://jekyllrb.com/).
 
 If you want to override a file from the `minima-reboot` template, run `bundle info minima-reboot` to see where the bundle files are and copy it into this project.
 
@@ -36,7 +42,7 @@ make build
 
 ## Deploy
 
-We built the site using Travis CI, so we are not limited to the Jekyll features/plugins etc. supported by GitHub.
+We build the site using Travis CI, so we are not limited to the Jekyll features/plugins etc. supported by GitHub.
 
 See https://tonyzhangnd.github.io/2018/06/Integrating-Jekyll-and-Travis-CI.html
 The PAT is [encrypted for Travis CI](https://docs.travis-ci.com/user/encryption-keys/).
