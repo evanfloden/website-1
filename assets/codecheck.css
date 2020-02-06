@@ -12,6 +12,15 @@ footer {
 
 #nav-header {
   border-top: 0 !important;
+  margin-bottom: 2rem;
+}
+
+#spec-header {
+  height: 6rem;
+}
+
+#spec-logo img {
+ height: 5rem;
 }
 
 ol {
@@ -66,6 +75,18 @@ ol li details {
 
 summary {
   color: #6c757d;
+}
+
+blockquote {
+  background-color: #d0e7d9;
+  padding: 1rem;
+  border-left: 2px solid #008033;
+}
+
+blockquote p:first-of-type {
+  color: #008033;
+  font-variant-caps: small-caps;
+  font-weight: bolder;
 }
 
 @media screen and (min-width: 400px) {
