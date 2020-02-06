@@ -47,3 +47,5 @@ We aim to achieve the following outputs by the end of the project:
 - Project summary and architectural sketch for a productive open transparent system for creating and verifying CODE CHECK certificates across publishers and repositories
 - Documentation and software published as Open Material respectively Open Source with permissive licenses
 - Collaboration with existing stakeholders and projects from the scholarly publishing and reproducible research communities
+
+[Learn more about the team](/team) behind CODE CHECK and follow the PIs for updates (see Twitter links below).

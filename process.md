@@ -1,6 +1,6 @@
 ---
 layout: page
-title: CODE CHECK Processes
+title: CODE CHECK process implementations
 permalink: /process/
 ---
 

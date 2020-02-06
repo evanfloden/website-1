@@ -25,13 +25,13 @@ Daniel will contribute his technical expertise in reproducible research infrastr
 
 ## Partners
 
-- Dr Ben Marwick (University of Washington)
-- Dr Misha Kapuchesy, CEO of Genestack (Cambridge)
-- eLife innovation team, eLife Science Publications Ltd (Cambridge)
-- Dr Nicolas Rougier (INRIA, Bordeaux)
-- Professor Konrad Kording (UPenn)
-- Dr Scott Edmunds, Executive Editor at Gigascience
-- [Opening Reproducible Research](https://o2r.info)
+- [Dr. Ben Marwick](https://faculty.washington.edu/bmarwick/) (University of Washington)
+- Dr. Misha Kapuchesy, CEO of [Genestack](https://genestack.com/) (Cambridge)
+- [eLife innovation](https://elifesciences.org/about/innovation) team, eLife Science Publications Ltd (Cambridge)
+- [Dr. Nicolas Rougier](https://www.labri.fr/perso/nrougier/) (INRIA, Bordeaux)
+- [Dr. Konrad Kording](http://koerding.com/) (UPenn)
+- Dr. Scott Edmunds, Executive Editor at [Gigascience](https://academic.oup.com/gigascience)
+- <img src="https://o2r.info/public/images/logo-transparent.png" title="o2r logo" height="10px" style="margin: 0; padding: 0; position: relative; top: -1px;" /> [Opening Reproducible Research](https://o2r.info)
 
 ## Funding
 
