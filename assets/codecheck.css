@@ -2,8 +2,9 @@ body {
   font-family: "PT Sans", Helvetica, Arial, sans-serif;
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4, h5 {
   color: #008033;
+  margin-top: 3rem;
 }
 
 footer {
