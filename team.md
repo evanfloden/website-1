@@ -37,4 +37,4 @@ Daniel will contribute his technical expertise in reproducible research infrastr
 
 The project is supported by a Mozilla Open Science Mini-Grant (see [official announcement](https://medium.com/read-write-participate/meet-mozillas-latest-open-science-awardees-cfa45348e5d5)) from February 2019 to May 2020.
 
-[![](img/mozilla.png)](https://foundation.mozilla.org)
+[![]({{ 'img/mozilla.png' | relative_url }})](https://foundation.mozilla.org)
