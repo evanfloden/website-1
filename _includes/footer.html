@@ -6,6 +6,7 @@
       <div class="col col-lg-3">
         <ul class="list-unstyled">
           <li class="text-secondary">
+            ©
             {% if site.author %}
               {{ site.author | escape }}
             {% else %}
@@ -16,8 +17,7 @@
               <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
             {% endif %}
             {% if site.license %}
-              <li class="text-secondary">Site content is licensedy under</br>
-                <a rel="license" href="{{ site.license.link }}">{{ site.license.text }}</a></br>
+              <li class="text-secondary">Published under <a rel="license" href="{{ site.license.link }}">{{ site.license.text }}</a></br>
                 <a href="{{ site.license.link }}"><img title="license logo" src="{{ site.license.logo }}" /></a></li>
             {% endif %}
         </ul>
