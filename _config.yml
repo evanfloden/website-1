@@ -10,8 +10,8 @@ markdown: kramdown
 theme: minima-reboot
 
 plugins:
-  - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-redirect-from
 
 license:
   text: CC BY-SA 4.0
