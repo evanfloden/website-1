@@ -1,11 +1,14 @@
 ---
 layout: page
-title: CODE CHECK default process
-permalink: /techexample/
+title: CODECHECK community process guide
+permalink: guide/community-process
+redirect_from:
+  - /techexample/
+  - techexample
 ---
 
-This page documents the _default_ concrete implementation of a [CODE CHECK process](/process) developed by the [CODE CHECK core team](/team).
-See the _[CODE CHECK process](/process)_ page for alternative approaches and the _[principles](/)_ for the foundations of a CODE CHECK.
+The CODECHECK community process described here is the steps that codecheckers follow when using GitHub, in particular the [GitHub organisation codecheckers](https://github.com/codecheckers/), and Zenodo for codechecking software from scientific articles.
+These codechecks may be part of a journal review or not and are a concrete implementation of the abstract [CODECHECK process](/process) following the _[CODECHECK principles](/)_.
 
 ## Author responsibilities
 
@@ -21,7 +24,7 @@ For example, data may be deposited depending on community practices in remote re
 The minimal set of files, besides all required data and code, to implement a CODE CHECK process are the following (`/` is the project root directory):
 
 1. **`/README` file** with instructions how to execute the workflow (must be plain text, may have suitable extension, e.g., `.txt`, `.md`, `.markdown`)
-1. **`/MANIFEST` file** with a list of output files created by the workflow - these must be created by the workflow and are the basis for validating a successful check
+1. **`/codecheck.yml` file** with a list of output files created by the workflow, the so called manifest; these files must be created by the workflow and are the basis for validating a successful check
 1. **`/LICENSE` file** with information about licenses for all submitted material, e.g. code license for scripts and data licenses for used datasets
 
 These files and the worklow are published in a dedicated self-contained _GitHub_ repository in the [codecheckers organisation](https://github.com/codecheckers/).
@@ -42,16 +45,11 @@ Prerequisite: familiarity with `make`, https://the-turing-way.netlify.com/make/m
 - Create a directory `codecheck` to not interfere with original files (may use `.codecheck` if `codecheck` exists in submission).
   All files that are by no chance created by an author go into this directory.
   Other files that an author could have used must not be hidden in this check-related directory, but just be added to the appropriate location (see "leave in a better condition" above).
-- Re-run the workflow based on provided documentation, i.e. recreate all files listed in `MANIFEST`, based on a `Makefile`
+- Re-run the workflow based on provided documentation, i.e. recreate all files listed in the manifest, based on a `Makefile`
   - template found at XXXX
   - Create a notebook?
-- Document the used computing environment using suitable configuration files, see [_REES_ specification](https://repo2docker.readthedocs.io/en/latest/config_files.html#config-files), for example by creating one or several of the following files or tools:
-  - `Dockerfile`
-  - Binder
-  - `environment.yml`
-  - `requirements.txt`
-  - `DESCRIPTION` file (R package)
-- Add a _report_
+- Document the used computing environment, see [CODECHECK bundle guide](/guide/bundle).
+- Add a _report_ file **`codecheck.pdf`**
   - WHO checked WHAT, and HOW?
   - template for report at XXXX
   - Optional report content depending on interest, time, and skills:
@@ -59,12 +57,20 @@ Prerequisite: familiarity with `make`, https://the-turing-way.netlify.com/make/m
     - Are used pieces of software and data properly CITED and publicly DEPOSITED und suitable LICENSES?
     - Are open formats (text-based) included?
     - Is data and [software](https://content.iospress.com/articles/data-science/ds190026) FAIR?
-- Deposit the original material along with the reproduced files on _Zenodo_ under you name, adding the original authors as co-authors
+- Add all codechecker-contributed information to the **`codecheck.yml`** file, see [spec](/spec/config/latest)
+- Deposit the report on _Zenodo_ under you name, adding the original authors as co-authors
+  - preregister a DOI on Zenodo
+  - add the DOI to the `codecheck.yml` file
+  - add the DOI to the `codecheck.pdf` report
+  - You can add any material to this record that you see fit, especially things that helped you with your reproduction, i.e. the [CODECHECK bundle](/guide/bundle)
+  - Add the record to the [CODECHECK community on Zenodo](https://zenodo.org/communities/codecheck)
 
 Every code check is unique, just as the associated research article.
 The codechecker can thereby rely on the following examples and future published code checks for good practices and approaches.
 
 ## Examples
+
+See the [codecheck registry on GitHub]() for a full list of codechecks.
 
 ### [Hopfield, 1982](https://github.com/codecheckers/Hopfield-1982)
 
@@ -103,59 +109,3 @@ https://github.com/codecheckers/Larisch-reproduction
 ### Barto Sutten Anderson, 1983
 
 https://github.com/codecheckers/Barto-Sutton-Anderson-1983
-
-------
-
-## FAQ
-
-### Are the CODE CHECK principles not a quite low bar?
-
-Yes.
-
-- A little bit is more than nothing.
-- The lower the bar, the earlier in the process a CODE CHECK can occure (e.g. pre-review)
-- Exposure to reproducibility practices is key.
-- Nudging works.
-- Better get a certificate for small parts of the workflow than not doing any code checks - not everything needs to be checked.
-
-### Why `make` ?
-
-<!-- make on Windows? -->
-- It's old, works, and is available everywhere.
-- Use the caching mechanism.
-
-### How should I best package my code and data?
-
-So that the codechecker can make sense of it.
-Beyond that, follow community practices or create a [research compendium](https://research-compendium.science/).
-
-### What if I used proprietary software _X_?
-
-The codechecker must be able to conduct the check.
-If they have access to he software, there is no problem.
-
-### Can't researchers cheat by just creating the `MANIFEST` files?
-
-Yes.
-
-### But I work with huge/privacy data!
-
-- enclaves
-- synthetic data
-- subsets
-
-### Why does a researcher have to provide licensing information?
-
-In this first implementation of the CODE CHECK principles described here, we imagine an Open process, and there is no Openness without proper handling of copyright.
-
-### Why don't you require containers?
-
-The codechecker put's their name under the check.
-That is more important than technical details, which will vary on a case by case basis.
-
-### What if Docker/`make`/software _X_ is not available anymore?
-
-Software stacks are volatile, and CODE CHECK acknowledges this by focussing on the idea that a workflow was _once_ reproducible by a person other than the author.
-This is a _huge_ step forward, and we are excited for the times when even more will be commonplace.
-The check largely increases the chances that the checked code works for third parties and is accessible, e.g. using text-based file formats, and portable, e.g. using containers.
-The _files_ and _archives_ (a Docker image is a tarball of a directory system) will be readable much longer than tools will be there to easily work with them.

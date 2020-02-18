@@ -46,6 +46,7 @@ header_pages:
   - process.md
   - project.md
   - team.md
+  - faq.md
 
 exclude:
   - Gemfile

@@ -59,24 +59,24 @@ They strike a **balance** between the ideals of auditable high-quality research 
 Of course, numerous requirements on openness/transparency (e.g. depositing the check result publicly with a DOI), about software quality (tests, releases, documentation), on copyright/licensing, and regarding best practices for computer-based analyses (e.g. workflow management, data/software citation) are thinkable, but intentionally remain to be defined by implementations of the principles in each community of practice.
 While the CODE CHECK initiators strongly support of Open Science, a CODE CHECK does not exclude research not falling into your definition of Open Science.
 
+Check out our [FAQ page](/faq) for more information about the limitations of a codecheck.
+
 **In the future** we hope to update these principles and to work together with researchers, educators, editors, and publishers to raise the bar towards very high reproducibility and openness across all domains and communities of research.
 
-### Implementing the CODE CHECK process
+The principles can be implemented in different ways.
+See the [process page](/process) for details about the stakeholders and dimensions of variations in codecheck within a scholarly peer review.
+The [community process](/guide/community-process) describes a concrete realisation including practical requirements and steps.
 
-_Sketch of steps to implement a CODE CHECK._
+**If you want to get involved as a codechecker in the community or want to apply the codecheck principles in your journal or conference, see the [Get Involved](/get-involved) page.**
 
-<img src="https://docs.google.com/drawings/d/e/2PACX-1vQ02PwUmSs2mCpGh1b9rqI9b6yk8uIVX2RyCj3ac9W2U7quzQHFVJpQtrOxg1eqLrLMD6174PjDfCEq/pub?w=767&amp;h=410">
+------
 
-The above principles can be implemented in different ways.
-In our discussions with editors and publishers, we found that the point in time when a code check happens, and the person who takes the role of codechecker can vary.
-For example, the check may happen before peer review or after, and the codechecker can be staff, a regular reviewer, or a member of a special reproducibility committee.
-
-_See the [processes page](process) for details about the connection of a code check with a scholarly peer review, and the [technology example](techexample) page for a concrete specification of the practical requirements and steps._
+# News
 
 Stephen Eglen presented CODE CHECK at [The 14th Munin Conference on Scholarly Publishing 2019](http://site.uit.no/muninconf/).
 You can take a look at the [poster](https://septentrio.uit.no/index.php/SCS/article/view/4910/4893) and the [slides](https://septentrio.uit.no/index.php/SCS/article/view/4910/4900), or watch the [video recording](https://mediasite.uit.no/Mediasite/Play/8027873496dc465ebc4b9b3ab0338ad01d?playFrom=1772000).
 
-[![](/img/munin-2019.jpg){}](https://mediasite.uit.no/Mediasite/Play/8027873496dc465ebc4b9b3ab0338ad01d?playFrom=1772000)
+[![](/img/munin-2019.jpg)](https://mediasite.uit.no/Mediasite/Play/8027873496dc465ebc4b9b3ab0338ad01d?playFrom=1772000)
 
 ------
 
