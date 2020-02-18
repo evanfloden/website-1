@@ -4,7 +4,7 @@ title: Team and Partners
 permalink: /team/
 ---
 
-CODE CHECK is a collaboration project between Stephen Eglen, Daniel Nüst, and several external partners and the scientific and scholarly infrastructure community.
+CODE CHECK is a collaboration project lead by Stephen Eglen and Daniel Nüst together with [a community of codecheckers](/get-involved) and external partners in the scientific, publishing, and scholarly infrastructure communities.
 
 ## Stephen Eglen (PI)
 
