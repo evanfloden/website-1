@@ -12,16 +12,6 @@ See the [project](/project/) page for a full description of problems, solutions,
 
 ### The CODE CHECK principles
 
-1. <span class="principle">Codecheckers are humans and communication is key.</span>
-   <details>
-   <summary>More about this principle...</summary>
-   The priority in all documentation and metadata is that a human codechecker can understand them.
-   The codechecker is _not_ making a scientific judgement.
-   It is also close to impossible to make a codecheck blind.
-   Therefore a CODE CHECK must not be anonymised must provide a two-way means of communication between author and codechecker.
-   Codecheckers are supported by formal metadata, automation, and reproducibility infrastructure, yet the check shall not rely on them.
-   Codechecks may be conducted by existing stakeholders in the submission process (e.g., a reviewer), but may also be handled with new roles and by people underrepresented in classic peer-review, such as early career resarchers (ECRs) or resarch software engineers (RSEs).
-   </details>
 1. <span class="principle">Codecheckers record but don't investigate or fix.</span>
    <details>
    <summary>More about this principle...</summary>
@@ -31,6 +21,16 @@ See the [project](/project/) page for a full description of problems, solutions,
    But a CODE CHECK does not evaluate scientific merit!
    A failed check does not imply the rejection of a submission.
    <em>Codechecker take the pictures at a crime scene, they do not hunt the murderer.</em>
+   </details>
+1. <span class="principle">Communication between humans is key.</span>
+   <details>
+   <summary>More about this principle...</summary>
+   The priority in all documentation and metadata is that a human codechecker can understand them.
+   The codechecker is _not_ making a scientific judgement.
+   It is also close to impossible to make a codecheck blind.
+   Therefore a CODE CHECK must not be anonymised must provide a two-way means of communication between author and codechecker.
+   Codecheckers are supported by formal metadata, automation, and reproducibility infrastructure, yet the check shall not rely on them.
+   Codechecks may be conducted by existing stakeholders in the submission process (e.g., a reviewer), but may also be handled with new roles and by people underrepresented in classic peer-review, such as early career resarchers (ECRs) or resarch software engineers (RSEs).
    </details>
 1. <span class="principle">Credit is given to codecheckers.</span>
    <details>
@@ -42,12 +42,13 @@ See the [project](/project/) page for a full description of problems, solutions,
    This principle intentionally does not regulate if/how the output of the CODE CHECK is deposited and who does it.
    Ideally though the contribution made by the codechecker is openly published in form of a DOI-able artifact and the sentence in the methods sections links to it as a simple hyperlink/URL.
    </details>
-1. <span class="principle">Workflows must be auditable and should be scripted.</span>
+1. <span class="principle">Workflows must be auditable.</span>
    <details>
    <summary>More about this principle...</summary>
-   Common sense and a collaborative process are the main drivers behind the <em>level of documentation</em>, the degree of openness, and the amount of data that is checked, but the minimal requirement is that the codechecker validates the workflow submitted by the authors.
-   This means the <em>code could be executed once by following the provided instructions and all promised outputs, e.g. figures or data files, are created</em>.
-   Ideally the execution is triggered by a running a single command.
+   Common sense and a collaborative process are the main drivers behind the <em>level of documentation</em>, the degree of openness, and the amount of data that is checked.
+   But the minimal requirement is that the codechecker has enough material to validate the workflow submitted by the authors.
+   This means the <em>code could be executed once by following the provided instructions and selected outputs, e.g. figures or data files, are created</em>.
+   Ideally the execution is fully scripted and the execution can be triggered by a running a single command.
    Being executed once means that a detailed investigation may occur at a later time.
    Being auditable includes that authors provide data and code for relevant analsis steps and visualisations to the codecheckers, but does not imply that all of the code associated with an article must be checked.
 
