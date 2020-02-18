@@ -16,6 +16,10 @@ footer {
   margin-bottom: 2rem;
 }
 
+#site-footer {
+  margin-top: 2rem;
+}
+
 #spec-header {
   height: 6rem;
 }
