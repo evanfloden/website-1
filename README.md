@@ -21,7 +21,7 @@ The figures used on the website are at https://drive.google.com/drive/folders/1X
 
 ## Website
 
-See `Makefile` for commands to build and view the site locally witj [Jekyll](https://jekyllrb.com/).
+See `Makefile` for commands to build and view the site locally with [Jekyll](https://jekyllrb.com/).
 
 If you want to override a file from the `minima-reboot` template, run `bundle info minima-reboot` to see where the bundle files are and copy it into this project.
 
