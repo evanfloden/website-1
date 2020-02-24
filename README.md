@@ -1,6 +1,6 @@
 # [codecheck.org.uk](https://codecheck.org.uk)
 
-CODE CHECK is a process for independent reproduction of computations and awarding of time-stamped certificates for successful reproductions of scholarly articles.
+CODECHECK is a process for independent reproduction of computations and awarding of time-stamped certificates for successful reproductions of scholarly articles.
 
 ## Logo and badge
 
@@ -8,7 +8,7 @@ CODE CHECK is a process for independent reproduction of computations and awardin
 
 ![](https://codecheck.org.uk/img/codecheck_logo.svg)
 
-Find the source files for the CODE CHECK logo and badge in the following directories in this repository:
+Find the source files for the CODECHECK logo and badge in the following directories in this repository:
 
 - `logo`
 - `badge`

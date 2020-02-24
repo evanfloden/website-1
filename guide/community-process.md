@@ -21,21 +21,21 @@ Any researcher, even if not familiar with the software stack, should be able to 
 Common sense shall be applied to decide about the suitable amount of data and to handle big datasets and privacy concerns.
 For example, data may be deposited depending on community practices in remote repositories, synthetic data may be used, subsets or preprocessed data may be included, or protected access to information may be provided (e.g. cloud-based data enclaves).
 
-The minimal set of files, besides all required data and code, to implement a CODE CHECK process are the following (`/` is the project root directory):
+The minimal set of files, besides all required data and code, to implement a CODECHECK process are the following (`/` is the project root directory):
 
 1. **`/README` file** with instructions how to execute the workflow (must be plain text, may have suitable extension, e.g., `.txt`, `.md`, `.markdown`)
-1. **`/codecheck.yml` file** with a list of output files created by the workflow, the so called manifest; these files must be created by the workflow and are the basis for validating a successful check
+1. **`/codecheck.yml` file** with a list of output files created by the workflow, the so called manifest; these files must be created by the workflow and are the basis for validating a successful CODECHECK
 1. **`/LICENSE` file** with information about licenses for all submitted material, e.g. code license for scripts and data licenses for used datasets
 
 These files and the worklow are published in a dedicated self-contained _GitHub_ repository in the [codecheckers organisation](https://github.com/codecheckers/).
-After the check, authors may use a pull request to transfer the improvements and certificate back to their own repository.
+After the CODECHECK, authors may use a pull request to transfer the improvements and certificate back to their own repository.
 
 Beyond that, any additional configuration and information is extremely helpful, of course.
 Concrete guidelines as to what this can entail are given by the codechecker's tasks below and the concept of a [research compendium](https://research-compendium.science/).
 
 ## Codechecker tasks
 
-The codechecker in general is not there to fix things, but to document how far they go and give feedback to the author until a check could be completed or is found impossible (see _[principle 2](/)_).
+The codechecker in general is not there to fix things, but to document how far they go and give feedback to the author until a CODECHECK could be completed or is found impossible (see _[principle 2](/)_).
 However, a codechecker may, for example out of personal interest in the research at hand, invest additional efforts.
 In any case, the overall goal is to _leave the workflow repository in the same or better condition_.
 
@@ -44,29 +44,29 @@ Prerequisite: familiarity with `make`, https://the-turing-way.netlify.com/make/m
 - Fork the repository to the codecheckers org
 - Create a directory `codecheck` to not interfere with original files (may use `.codecheck` if `codecheck` exists in submission).
   All files that are by no chance created by an author go into this directory.
-  Other files that an author could have used must not be hidden in this check-related directory, but just be added to the appropriate location (see "leave in a better condition" above).
+  Other files that an author could have used must not be hidden in this CODECHECK-related directory, but just be added to the appropriate location (see "leave in a better condition" above).
 - Re-run the workflow based on provided documentation, i.e. recreate all files listed in the manifest, based on a `Makefile`
   - template found at XXXX
   - Create a notebook?
 - Document the used computing environment, see [CODECHECK bundle guide](/guide/bundle).
-- Add a _report_ file **`codecheck.pdf`**
+- Add a _CODECHEK report_ file **`codecheck.pdf`**
   - WHO checked WHAT, and HOW?
-  - template for report at XXXX
-  - Optional report content depending on interest, time, and skills:
+  - template for CODECHEK report at XXXX
+  - Optional CODECHEK report content depending on interest, time, and skills:
     - Do the generated outputs match the ones in the original manuscript? Are the differences relevant or not?
     - Are used pieces of software and data properly CITED and publicly DEPOSITED und suitable LICENSES?
     - Are open formats (text-based) included?
     - Is data and [software](https://content.iospress.com/articles/data-science/ds190026) FAIR?
 - Add all codechecker-contributed information to the **`codecheck.yml`** file, see [spec](/spec/config/latest)
-- Deposit the report on _Zenodo_ under you name, adding the original authors as co-authors
+- Deposit the CODECHEK report on _Zenodo_ under you name, adding the original authors as co-authors
   - preregister a DOI on Zenodo
   - add the DOI to the `codecheck.yml` file
-  - add the DOI to the `codecheck.pdf` report
+  - add the DOI to the `codecheck.pdf` CODECHEK report
   - You can add any material to this record that you see fit, especially things that helped you with your reproduction, i.e. the [CODECHECK bundle](/guide/bundle)
   - Add the record to the [CODECHECK community on Zenodo](https://zenodo.org/communities/codecheck)
 
-Every code check is unique, just as the associated research article.
-The codechecker can thereby rely on the following examples and future published code checks for good practices and approaches.
+Every CODECHECK is unique, just as the associated research article.
+The codechecker can thereby rely on the following examples and future published CODECHECKs for good practices and approaches for codechecking.
 
 ## Examples
 
@@ -88,7 +88,7 @@ Comments:
 
 https://github.com/codecheckers/eglen2015/
 
-Draft check report: https://github.com/sje30/codecheck/blob/master/cert/eglen2016/eglen2016-crc.Rmd
+Draft CODECHECK report: https://github.com/sje30/codecheck/blob/master/cert/eglen2016/eglen2016-crc.Rmd
 
 ### Hancock, 1991
 

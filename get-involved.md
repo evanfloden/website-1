@@ -19,7 +19,7 @@ You are an editor or reviewer at a journal or conference and are interested to i
 There is no formal process or certification.
 You can simply announce publicly that you conduct a code review adhereing to the CODECHECK principles, e.g. in a blog post.
 A link to the CODECHECK principles in your submission guidelines would probably be helpful for authors and reviewers.
-Please consider adding a <img src="/img/codeworks-badge.svg" alt="CODE CHECK badge" height="16" style="margin-top: -4px;" /> badge to the publication to highlight the fact that a codecheck was conducted.
+Please consider adding a <img src="/img/codeworks-badge.svg" alt="CODECHECK badge" height="16" style="margin-top: -4px;" /> badge to the publication to highlight the fact that a CODECHECK was conducted.
 The badge should link directly to the CODECHECK report.
 
 The badge graphic and all documentation on this website are available under open licenses, see [this README](https://github.com/codecheckers/website/blob/master/README.md).

@@ -4,11 +4,11 @@ title: CODECHECK bundle
 permalink: guide/bundle
 ---
 
-The bundle is _not_ formally specified, as its contents are largely at the discretion of the codechecker.
+The CODECHEK bundle is _not_ formally specified, as its contents are largely at the discretion of the codechecker.
 Unlike the [CODECHECK configuration file](/spec/config/latest), which has a more formal specification.
 Therefore, this page acts as a guidance for codecheckers and may evolve over time.
 
-**The CODECHECK bundle includes all files that the codechecker used to conduct the check.**
+**The CODECHECK bundle includes all files that the codechecker used to conduct the CODECHECK.**
 This may include a copy of the author's files, and any additional files that the codechecker created to assisst them in their codecheck.
 
 ## Computing environment documentation
