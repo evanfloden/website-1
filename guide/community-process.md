@@ -41,7 +41,8 @@ In any case, the overall goal is to _leave the workflow repository in the same o
 
 Prerequisite: familiarity with `make`, https://the-turing-way.netlify.com/make/make.html & https://swcarpentry.github.io/make-novice/reference.
 
-- Fork the repository to the codecheckers org
+- [Open an issue on the CODECHECK register](https://github.com/codecheckers/register/issues) to notify other codecheckers.
+- Fork the repository to the codecheckers GitHub organisation, or create a new repository (following the terms and conditions of the workspace licenses)
 - Create a directory `codecheck` to not interfere with original files (may use `.codecheck` if `codecheck` exists in submission).
   All files that are by no chance created by an author go into this directory.
   Other files that an author could have used must not be hidden in this CODECHECK-related directory, but just be added to the appropriate location (see "leave in a better condition" above).
@@ -64,13 +65,28 @@ Prerequisite: familiarity with `make`, https://the-turing-way.netlify.com/make/m
   - add the DOI to the `codecheck.pdf` CODECHEK report
   - You can add any material to this record that you see fit, especially things that helped you with your reproduction, i.e. the [CODECHECK bundle](/guide/bundle)
   - Add the record to the [CODECHECK community on Zenodo](https://zenodo.org/communities/codecheck)
+- Add the CODECHECK to the register. If the check was conducted for the first time for a piece of software or resulted in important lessons learned, consider adding it to the list of examples below.
+- Add the [CODE WORKS badge](https://github.com/codecheckers/website/tree/master/badges) to the article or the original software repository. The badge should link directly to the Zenodo record <img src="/img/codeworks-badge.svg" alt="CODECHECK badge" height="16" style="margin-top: -4px;" />
+- Update the register issue with all important information, then close it.
 
 Every CODECHECK is unique, just as the associated research article.
-The codechecker can thereby rely on the following examples and future published CODECHECKs for good practices and approaches for codechecking.
+The codechecker can thereby rely on the examples below and future published CODECHECKs for good practices and approaches for codechecking.
+
+## Start a CODECHECK
+
+[Open a new issue](https://github.com/codecheckers/register/issues/new/choose) on the CODECHECK register with information about your workflow.
 
 ## Examples
 
-See the [codecheck registry on GitHub]() for a full list of codechecks.
+See the [CODECHECK register on GitHub](https://github.com/codecheckers/register/) for a full list of codechecks.
+
+### [Piccolo, 2020](https://github.com/codecheckers/Piccolo-2020)
+
+Codechecker: [@sje30](https://github.com/sje30)
+
+Report: [http://doi.org/10.5281/zenodo.3674056](http://doi.org/10.5281/zenodo.3674056)
+
+Journal: GigaScience
 
 ### [Hopfield, 1982](https://github.com/codecheckers/Hopfield-1982)
 
@@ -84,28 +100,28 @@ Comments:
 - codechecker added `requirements.txt` using `pip freeze` after workflow could be executed
 - codechecker added text to README about the computing environment
 
-### Eglen, 2015
+### Eglen, 2015 (work in progress)
 
 https://github.com/codecheckers/eglen2015/
 
 Draft CODECHECK report: https://github.com/sje30/codecheck/blob/master/cert/eglen2016/eglen2016-crc.Rmd
 
-### Hancock, 1991
+### Hancock, 1991 (work in progress)
 
 https://github.com/codecheckers/Reproduction-Hancock
 
-### Hathway Goodman, 2018
+### Hathway Goodman, 2018 (work in progress)
 
 https://github.com/codecheckers/Hathway-Goodman-2018
 
-### Detorakis, 2017
+### Detorakis, 2017 (work in progress)
 
 https://github.com/codecheckers/Detorakis-reproduction
 
-### Larisch, 2019
+### Larisch, 2019 (work in progress)
 
 https://github.com/codecheckers/Larisch-reproduction
 
-### Barto Sutten Anderson, 1983
+### Barto Sutten Anderson, 1983 (work in progress)
 
 https://github.com/codecheckers/Barto-Sutton-Anderson-1983
