@@ -9,7 +9,13 @@ permalink: /get-involved/
 You are a scientist and want to help codechecking submissions?
 
 **Awesome!**
-Please open an issue on the [codecheckers](https://github.com/codecheckers/codecheckers) repository to be added to the [Codecheckers Team](https://github.com/orgs/codecheckers/teams/codecheckers).
+Please open an issue on the [codecheckers](https://github.com/codecheckers/codecheckers) repository to be added to the [Codecheckers Team](https://github.com/orgs/codecheckers/teams/codecheckers) **[using this link](https://github.com/codecheckers/codecheckers/issues/new?assignees=nuest&labels=registration&template=codechecker-registration.md&title=Register+as+codechecker)**.
+
+## As an author
+
+You want to share the code underlying your research paper? **Congratulations** for the decision to practice Open Science and reproducible research!
+
+There are two ways for you to get involved: (i) submit a manuscript to a journal conducting CODECHECKs, or (ii) submit your workflow to the [community review process](guide/community-process).
 
 ## As a journal, publisher, or conference
 
